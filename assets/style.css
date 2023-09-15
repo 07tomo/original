@@ -1,0 +1,235 @@
+*{
+    padding:0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+}
+
+
+.header-left>span{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    
+}
+
+.logo{
+    height: 50px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav>li>a{
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.carousel-item>img{
+    height: 100vh;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contents>img{
+    height: 150px;
+    margin: 0 20px;
+
+}
+
+section>h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.recs-wrap>h1{
+    text-align: center;
+}
+
+.recs{
+    display: flex;
+   
+  
+}
+
+.rec-bottom{
+    height: 274px;
+}
+
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.profile-img{
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.profile{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+@media screen and(max-width:780px) {
+    .profile{
+        flex-direction: column
+    }
+}
+
+.profile-left{
+    padding: 30px 0 30px 0;
+}
+
+.profile-right{
+    padding-left: 50px;
+}
+.profile-details{
+    display: flex;
+    font-size: 22px;
+}
+
+.detail-left{
+    font-weight: bolder;
+}
+
+.detail-right{
+    padding-left: 30px;
+}
+
+.profile-right h1{
+    margin-bottom: 30px;
+}
+
+.rec-bottom h2 {
+    display: flex;
+
+}
+
+.recs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.rekishi{
+    margin: 10px;
+}
+
+.kikou{
+    margin: 10px;
+}
+
+.gengo{
+    margin: 10px;
+}
+
+.food>h4{
+text-align: right;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table tr{
+    border-bottom: solid 2px white;
+  }
+  
+  table tr:last-child{
+    border-bottom: none;
+  }
+  
+  table th{
+    position: relative;
+    text-align: left;
+    width: 30%;
+    background-color: #52c2d0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  table th:after{
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top:calc(50% - 10px);
+    right:-10px;
+    border-left: 10px solid #52c2d0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  
+  table td{
+    text-align: left;
+    width: 70%;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px 0;
+  }
+
+
+
+
+  .profile-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:780px) {
+    .profile{
+        flex-direction: column;
+    }
+}
+
+.profile-details{
+    display: flex;
+    font-size: 22px;
+}
+
+.profile-left{
+    padding: 30px 0 30px 0 ;
+}
+
+.profile-right{
+    padding-left: 50px;
+}
+
+.profile-right h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
